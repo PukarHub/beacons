@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import "./SignUp.css";
 import Beacons from "../images/beacons.PNG";
 
-// import ForgotPassword from './ForgotPassword'
-
 const SignUp = ({ history }) => {
   const handleSignUp = useCallback(
     async (event) => {
@@ -59,6 +57,11 @@ const SignUp = ({ history }) => {
       });
   };
 
+  const help = () => {
+   alert('Hello mf')
+  }
+  
+
   return (
     <div>
       <form onSubmit={handleSignUp} className="signupform">
@@ -67,64 +70,82 @@ const SignUp = ({ history }) => {
           {" "}
           <strong>Not sure how to sign in?</strong>{" "}
         </p>
-        <p>
+        <p id='p'>
           <strong>
             Click{" "}
-            <Link id="link" to="/">
+            <Link id="link" to='/signUp' onClick={help} >
               {" "}
-              here
+              here.
             </Link>
           </strong>
         </p>{" "}
         <br />
-        <button id="googlebtn" onClick={SignInWithGoogle}>
-          <span>
-            <i class="fab fa-google"></i>{" "}
-          </span>
-          Sign in with Google
-        </button>{" "}
-        <br />
-        <button id="facebookbtn" onClick={SignInWithFacebook}>
-          <span>
-            <i class="fab fa-facebook-square"></i>
-          </span>
-          Sign in with Facebook
-        </button>{" "}
-        <br />
-        <h4>
-          {" "}
-          <div id="or">or</div>{" "}
-        </h4>
-        <div id="box">
-          <div>
-            <input name="email" type="email" required />
-            <label>Email</label>
+    
+        <div id="here">
+            <p id="p2">Enter your Beacons username below. <br/> We'll tell you how to sign in.</p>
+            <div id="box1">
+              <input type="text" name="name" required/> 
+              <label id="email" >Username</label>
+            </div>
+            <button id="retrievebtn" type="submit">Retrieve sign in method</button>  <br/> <br/>
+            <Link id="link" to="/signUp">Back to sign in.</Link> <br/> <br/>
+            <p id="link" >Don't have an account? <Link id="link" to="/">Join the waitlist</Link> </p>
+           <div id="img">
+            <Link to="/"><img  src={Beacons} alt="loading..."/></Link> 
           </div>
-          <div>
-            <input name="password" type="password" required />
-            <label>Password</label>
-          </div>
+        </div> 
+
+         <div id="box2">
+
+            <button id="googlebtn" onClick={SignInWithGoogle}>
+              <span>
+                <i className="fab fa-google"></i>{" "}
+              </span>
+              Sign in with Google
+            </button>{" "}
+            <br />
+            <button id="facebookbtn" onClick={SignInWithFacebook}>
+              <span>
+                <i className="fab fa-facebook-square"></i>
+              </span>
+              Sign in with Facebook
+            </button>{" "}
+            <br />
+            <h4>
+              {" "}
+              <div id="or">or</div>{" "}
+            </h4>
+            <div id="box">
+              <div>
+                <input name="email" type="email" required />
+                <label>Email</label>
+              </div>
+              <div>
+                <input name="password" type="password" required />
+                <label>Password</label>
+              </div>
+            </div>
+            <button id="submitbtn" type="submit">
+              Sign in with Email
+            </button>{" "}
+            <br /> <br /> <br />
+            <Link id="link" to="/forgotpassword">
+              Forgot password?
+            </Link>{" "}
+            <br /> <br />
+            <p id="link">
+              Don't have an account?{" "}
+              <Link id="link" to="/">
+                Join the waitlist
+              </Link>{" "}
+            </p> 
+          <div id="img">
+            <Link to="/" >
+              <img src={Beacons} alt="loading..." />
+            </Link>
+          </div> 
         </div>
-        <button id="submitbtn" type="submit">
-          Sign in with Email
-        </button>{" "}
-        <br /> <br /> <br />
-        <Link id="link" to="/forgotpassword">
-          Forgot password?
-        </Link>{" "}
-        <br /> <br />
-        <p id="link">
-          Don't have an account?{" "}
-          <Link id="link" to="/">
-            Join the waitlist
-          </Link>{" "}
-        </p>
       </form>
-      <div id="img">
-        <Link>
-          <img src={Beacons} alt="loading..." />
-        </Link>
-      </div>
     </div>
   );
 };

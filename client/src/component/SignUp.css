@@ -9,6 +9,15 @@
     font-size: 22px;
 }
 
+#p {
+    margin-top: -6px;
+}
+#p2{
+    margin-top: 5px;
+    font-size: 15px;
+   
+}
+
 #googlebtn{
     color:#fff;
     background-color: #CB3F23;
@@ -144,4 +153,46 @@ top: -5px;
 left: 0;
 font-size: 11px;
 }
+
+#here  {
+ justify-content: center;
+ text-align: center;
+}
+
+#retrievebtn{
+    color:#fff;
+    background-color: #44C2B7;
+    padding: 17px 105px;
+    border-radius: 5px;
+    margin-top: -8px !important;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#retrievebtn:hover {
+    color: #fff;
+    box-shadow: 2px 3px 3px grey;
+    background-color: gainsboro;
+    transition-duration: 1s ease-in-out;
+}
+
+#box1 input {
+    width: 395px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+#here {
+    display: block;
+    /* visibility: hidden; */
+}
+
+#box2 {
+    display: block;
+    visibility: hidden;
+}
+
 

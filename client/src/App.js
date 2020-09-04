@@ -8,6 +8,7 @@ import ForgotPassword from './component/ForgotPassword'
 import {AuthProvider} from './context/Auth'
 import PrivateRoute from './PrivateRoute'
 
+
 const App = () => {
   return (
     <AuthProvider>
