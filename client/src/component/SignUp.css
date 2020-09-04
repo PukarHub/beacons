@@ -1,0 +1,147 @@
+.signupform {
+    justify-content: center;
+    text-align: center;
+    margin-top: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#signin{
+    font-size: 22px;
+}
+
+#googlebtn{
+    color:#fff;
+    background-color: #CB3F23;
+    padding: 17px 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;   
+}
+
+#googlebtn i{
+    font-size: 21px;
+    margin-right: 5px;
+}
+#googlebtn:hover{
+    box-shadow: 1px 1px 3px grey;
+}
+
+#facebookbtn {
+    color:#fff;
+    background-color: #4167B2;
+    padding: 17px 114px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    border: none;
+}
+
+#facebookbtn i {
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+#facebookbtn:hover{
+    box-shadow: 1px 1px 3px grey;
+}
+
+#or {
+  text-align: center;
+  margin-top: 32px;
+}
+
+h4:before{
+    content: "";
+   display: block;
+   width: 190px;
+   height: 2px;
+   background: #000;
+   position: absolute;
+   left: 0;
+   top: 50%;
+   margin-left: 470px;
+   margin-top: 70px; 
+}
+
+h4:after{
+    content: "";
+   display: block;
+   width: 190px;
+   height: 2px;
+   background: #000;
+   position: absolute;
+   right: 0;
+   top: 50%;
+   margin-right: 470px;
+   margin-top: 70px; 
+}
+
+#submitbtn{
+    color:#fff;
+    background-color: #44C2B7;
+    padding: 17px 144px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    border: none;
+}
+
+#submitbtn:hover{
+    color: #fff;
+    box-shadow: 1px 3px 3px grey;
+    background-color: gainsboro;
+    transition-duration: 1s ease-in-out;
+}
+
+#link {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#img{
+   text-align: center;
+   margin-top: 15px;
+}
+
+input {
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    width: 31%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#box div input {
+ position: relative;
+}
+
+#box div label {
+    position: absolute;
+    left: 0;
+    padding-left: 470px;
+    margin-top: 10px;
+    color: #999;
+    transition: .5s;
+    pointer-events: none;
+    color: black;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: 0;
+    border-bottom: 2px solid black;
+}
+
+input:focus ~ label {
+top: -5px;
+left: 0;
+font-size: 11px;
+}
+
