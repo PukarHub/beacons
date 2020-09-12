@@ -1,4 +1,4 @@
-.signupform {
+.signupform, #here {
     justify-content: center;
     text-align: center;
     margin-top: 75px;
@@ -15,7 +15,7 @@
 #p2{
     margin-top: 5px;
     font-size: 15px;
-   
+
 }
 
 #googlebtn{
@@ -25,7 +25,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-    border: none;   
+    border: none;
 }
 
 #googlebtn i{
@@ -58,7 +58,7 @@
 
 #or {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 42px;
 }
 
 h4:before{
@@ -71,7 +71,7 @@ h4:before{
    left: 0;
    top: 50%;
    margin-left: 470px;
-   margin-top: 70px; 
+   margin-top: 70px;
 }
 
 h4:after{
@@ -84,7 +84,7 @@ h4:after{
    right: 0;
    top: 50%;
    margin-right: 470px;
-   margin-top: 70px; 
+   margin-top: 70px;
 }
 
 #submitbtn{
@@ -157,6 +157,9 @@ font-size: 11px;
 #here  {
  justify-content: center;
  text-align: center;
+ align-items: center;
+ margin-top: 75px;
+ margin-right: 17px;
 }
 
 #retrievebtn{
@@ -185,14 +188,52 @@ font-size: 11px;
     margin-top: 5px;
 }
 
-#here {
-    display: block;
-    /* visibility: hidden; */
+.user-input-wrp {
+	position: relative;
+	width: 25%;
+  text-align: center;
+}
+.user-input-wrp .inputText{
+	width: 117%;
+    outline: none;
+    margin-left: 472px;
+	border:none;
+	border-bottom: 2px solid black;
+ 	box-shadow: none !important;
+}
+.user-input-wrp .inputText:focus{
+	border-color: black;
+	border-width: medium medium 2px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+    top: 15px;
+	left: 15px;
+    transition: 0.15s ease all;
+    margin-left: 460px;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: -10px;
+	left: 10px;
+	font-size: 13px;
+	opacity: 1;
 }
 
-#box2 {
-    display: block;
-    visibility: hidden;
+#box .user-input-wrp  {
+    position: relative;
 }
 
+#box .user-input-wrp .inputText {
+width: 420px;
+margin-left: 457px;
+padding: 15px 0px;
+}
 
+#box .user-input-wrp .floating-label {
+    position: absolute;
+	pointer-events: none;
+    margin-left: -10px;
+    transition: 0.1s ease all;
+}
