@@ -23,7 +23,7 @@ const index = () => {
           </div>
 
           <div className='navbar-items'>
-            <Link to='blogs.html' className='navbar-item'>
+            <Link to='/blog1' className='navbar-item'>
               Blog
             </Link>
             <Link to='/' className='navbar-item'>
@@ -48,7 +48,7 @@ const index = () => {
           {/* <button onclick="show_hide()" className="button">&/9776;</button> */}
           <div style={{ display: 'none' }} id='drop-content'>
             <div className='drop-list'>
-              <Link to='blogs.html'>
+              <Link to='/blog1'>
                 <span>Blog</span>
               </Link>
               <Link to='/'>
@@ -101,7 +101,7 @@ const index = () => {
           Start building your business today. <br /> Free Forever.
         </div>
         <div className='third-section-picture'>
-          <Link to='digital store.html'>
+          <Link to='/digitalstore'>
             <div className='picture-info'>
               <div className='picture-position'>
                 <img src={Picture1} className='picture' alt='1' />
@@ -109,7 +109,7 @@ const index = () => {
               </div>
             </div>
           </Link>
-          <Link to='taking commissions.html'>
+          <Link to='/comission'>
             <div className='picture-info'>
               <div className='picture-position'>
                 <img
@@ -121,8 +121,8 @@ const index = () => {
               </div>
             </div>
           </Link>
-          <div className='picture-info'>
-            <Link to='leveling up your links.html'>
+          <Link to='/link'>
+            <div className='picture-info'>
               <div className='picture-position'>
                 <img
                   src={Picture3}
@@ -131,8 +131,9 @@ const index = () => {
                 />
                 <h5>Link to anywhere</h5>
               </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
+           
         </div>
       </section>
 
