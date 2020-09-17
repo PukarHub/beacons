@@ -1,5 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import blog2 from '../../../images/blog-card-2.jpg'
+import blog3 from '../../../images/blog-card-3.jpg'
+import blog4 from '../../../images/blog-card-4.jpg'
+import blog5 from '../../../images/blog-card-5.jpg'
+import blog6 from '../../../images/blog-card-6.jpg'
+import blog7 from '../../../images/blog-card-7.jpg'
+import blog8 from '../../../images/blog-card-8.jpg'
+import blog9 from '../../../images/blog-card-9.jpeg'
+import blog10 from '../../../images/blog-card-10.jpg'
+import blog11 from '../../../images/blog-card-11.jpeg'
+import blog13 from '../../../images/blog-card-13.jpg'
+import blog14 from '../../../images/blog-card-14.jpg'
+import blog15 from '../../../images/blog-card-15.jpg'
+import beaconsDark from '../../../images/beacons-dark.png'
+import avatar1 from '../../../images/avatar-1.png'
+import useravatar from '../../../images/user-avatar.png'
+import comission1 from '../../../images/takingcommissions-1.png';
+import comission2 from '../../../images/takingcommissions-2.png';
+import comission3 from '../../../images/takingcommissions-3.png';
+import comission4 from '../../../images/takingcommissions-4.png';
+import comission5 from '../../../images/takingcommissions-5.png';
+import comission6 from '../../../images/takingcommissions-6.png';
 
 const Comission = () => {
     return (
@@ -15,7 +37,7 @@ const Comission = () => {
 
                     <div className="each-article">
                         <Link to="/">
-                        <img src="img/blog-card-2.jpg" className="article-img" alt=""/>
+                        <img src={blog2} className="article-img" alt=""/>
                         <h4>Optimizing your links for clicks <span role="img" aria-label="link">&#128170;</span></h4>
                         <span>2 months ago</span>        
                         </Link>    
@@ -23,7 +45,7 @@ const Comission = () => {
 
                         <div className="each-article">
                             <Link to="/">
-                            <img src="img/blog-card-11.jpeg" className="article-img" alt=""/>
+                            <img src={blog11} className="article-img" alt=""/>
                             <h4>Building your email list <span role="img" aria-label="email">&#127969;</span>.</h4>
                             <span>6 months ago</span>             
                         </Link>    
@@ -31,7 +53,7 @@ const Comission = () => {
 
                         <div className="each-article">
                         <Link to="">
-                        <img src="img/blog-card-9.jpeg" className="article-img" alt="" />
+                        <img src={blog9} className="article-img" alt="" />
                         <h4>The Smart Link <span role="img" aria-label="link">&#9889;</span></h4>
                         <span>5 months ago</span>            
                         </Link>    
@@ -39,7 +61,7 @@ const Comission = () => {
 
                         <div className="each-article">
                                     <Link to="/">
-                                    <img src="img/blog-card-8.jpg" className="article-img" alt=""/>
+                                    <img src={blog8} className="article-img" alt=""/>
                                     <h4>Setting up with stripe <span role="img" aria-label="link" >&#127970;</span></h4>
                                     <span>5 months ago</span>       
                                     </Link>
@@ -58,14 +80,14 @@ const Comission = () => {
                 <section className="first-section">
                 <div className="navbar">
                     <div className="logo-div">
-                    <Link to="index.html" className="blog-logo"><img src="img/beacons-dark.png" alt=""/></Link>
+                    <Link to="/" className="blog-logo"><img src={beaconsDark} alt=""/></Link>
                     </div>
                 
                     <div className="blog-navbar-items">
-                    <Link to="index.html" className="navbar-item">Beacons</Link>
+                    <Link to="/" className="navbar-item">Beacons</Link>
                     <Link to="blogs.html" className="navbar-item">Blogs</Link>
                     <Link to="tips.html" className="navbar-item">Tips</Link>
-                    <Link to="research.html"className="navbar-item">Research</Link>
+                    <Link to="research.html" className="navbar-item">Research</Link>
                     <Link to="#" className="drop-down">
                         <i onclick="myfun()" id="clicks" className="dropdown fas fa-ellipsis-h"></i>
                     </Link>
@@ -104,35 +126,35 @@ const Comission = () => {
                        if you haven't already. Turn your form on and explain the types of commissions you're taking.
                     </p>
                         <div className="card-gif">
-                        <img src="/img/takingcommissions-1.png" alt=""/>
+                        <img src={comission1} alt=""/>
                         <p>You can add multiple options just by hitting "Add Item.</p>
                         </div>
                         <div className="card-gif">
-                        <img src="/img/takingcommissions-2.png" alt=""/>
+                        <img src={comission2} alt=""/>
                         </div>
                         <h4 className="followers-see" >Visitors can now submit requests to you
                         </h4>
                         <p>When visitors come to your Beacons page, they'll be able to see a commission form.</p>
                         <div className="card-gif">
-                            <img src="/img/takingcommissions-3.png" alt=""/>
+                            <img src={comission3} alt=""/>
                             </div>
                             <p>The visitor will also need to fill out their name, email address, and credit card information. Additionally, they can choose to make their request private, which means that your response will not be featured on your profile page – more on this later.</p>
                             <h4 className="followers-see" >Responding to commissions
                             </h4>
                             <p>After the request is processed, you'll receive an email.</p>
                             <div className="card-gif">
-                            <img src="/img/takingcommissions-4.png" alt=""/>
+                            <img src={comission4} alt=""/>
                             </div>
 
                             <p>Clicking on the "Click to respond" button will take you to a page where you'll be able to easily upload or record a response.</p>
                             <div className="card-gif">
-                                <img src="/img/takingcommissions-5.png" alt=""/>
+                                <img src={comission5} alt=""/>
                                 </div>
                                 <h4 className="followers-see">Finishing up
                                 </h4>
                                 <p>After your response is processed, the requester's credit card charge will be captured, and part of the charge will automatically be transferred to your Stripe Account. If the request was not set to private, then it will be featured in the Community section of your page.</p>
                                 <div className="card-gif">
-                                <img src="/img/takingcommissions-6.png" alt=""/>
+                                <img src={comission6}alt=""/>
                                 </div>
                                 <h4 className="followers-see">FAQs</h4>
                                 
@@ -175,7 +197,7 @@ const Comission = () => {
 
                 <div className="user-profile">
                 <div className="user-avatar-box">
-                    <img src="/img/user-avatar.png" alt="" className="user-avatar"/>
+                    <img src={useravatar} alt="" className="user-avatar"/>
                     <h6>David Zeng</h6>
                     <p> Co-Founder, CTO</p>
                 </div>
@@ -190,8 +212,8 @@ const Comission = () => {
                
                 <div className="card">
                     <Link to="getting started.html" className="res-card">
-                    <img src="/img/blog-card-13.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog13} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div>
                       <h5>Taking Commissions  
@@ -204,8 +226,8 @@ const Comission = () => {
 
                 <div className="card">
                     <Link to="featuring a video.html" className="res-card">
-                    <img src="/img/blog-card-2.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog2} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Optimizing your links for clicks</h5></div>
                         <div><h6>7 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -214,8 +236,8 @@ const Comission = () => {
           
                 <div className="card">
                     <Link to="getting started.html" className="res-card">
-                    <img src="/img/blog-card-3.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog3} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Leveling up your links <span role="img" aria-label="comission">&#128279;</span></h5></div>
                         <div><h6>4 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -224,8 +246,8 @@ const Comission = () => {
 
                 <div className="card">
                     <Link to="featuring a video.html" className="res-card">
-                    <img src="/img/blog-card-4.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog4} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Customizing your page <span role="img" aria-label="page">&#127912;</span></h5></div>
                         <div><h6>4 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -235,8 +257,8 @@ const Comission = () => {
 
                 <div className="card">
                     <Link to="getting started.html" className="res-card">
-                    <img src="/img/blog-card-5.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog5} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Your weekly update email <span role="img" aria-label="email"> &#129299;</span></h5></div>
                         <div><h6>4 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -245,8 +267,8 @@ const Comission = () => {
 
                 <div className="card">
                     <Link to="featuring a video.html" className="res-card">
-                    <img src="/img/blog-card-6.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog6} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Enabling visitors to support your content <span role="img" aria-label="content">&#129395;</span></h5></div>
                         <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -255,8 +277,8 @@ const Comission = () => {
 
                 <div className="card">
                 <Link to="getting started.html" className="res-card">
-                <img src="/img/blog-card-7.jpg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog7} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>Featuring a video <span role="img" aria-label="video">&#127916;</span></h5></div>
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;1 min read</span></h6></div>
@@ -265,8 +287,8 @@ const Comission = () => {
 
                 <div className="card">
                 <Link to="featuring a video.html" className="res-card">
-                <img src="/img/blog-card-8.jpg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog8} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>Setting up with stripe
                 <span role="img" aria-label="stripe">&#127970;</span>
@@ -277,8 +299,8 @@ const Comission = () => {
 
                 <div className="card">
                 <Link to="getting started.html" className="res-card">
-                <img src="/img/blog-card-9.jpeg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog9} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>The Smart Link</h5></div>
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -288,8 +310,8 @@ const Comission = () => {
           
                 <div className="card">
                 <Link to="featuring a video.html" className="res-card">
-                <img src="/img/blog-card-10.jpg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog10} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>Monetization for content creators</h5></div>
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -308,8 +330,8 @@ const Comission = () => {
                 <div className="glider res-glider">
                  <div className="card">
                     <Link to="getting started.html" className="res-card">
-                    <img src="/img/blog-card-13.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog13} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Taking Commissions <span role="img" aria-label="comission">&#128104;</span></h5></div>
                         <div><h6>6 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -319,8 +341,8 @@ const Comission = () => {
            
                 <div className="card">
                     <Link to="featuring a video.html" className="res-card">
-                    <img src="/img/blog-card-2.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog2} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Optimizing your links for clicks</h5></div>
                         <div><h6>7 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -329,8 +351,8 @@ const Comission = () => {
             
                 <div className="card">
                     <Link to="getting started.html" className="res-card">
-                    <img src="/img/blog-card-3.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog3} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Leveling up your links <span role="img" aria-label="links">&#128279;</span></h5></div>
                         <div><h6>4 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -339,8 +361,8 @@ const Comission = () => {
 
                 <div className="card">
                     <Link to="featuring a video.html" className="res-card">
-                    <img src="/img/blog-card-4.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog4} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Customizing your page <span role="img" aria-label="page">&#127912;</span></h5></div>
                         <div><h6>4 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -349,8 +371,8 @@ const Comission = () => {
 
                 <div className="card">
                     <Link to="getting started.html" className="res-card">
-                    <img src="/img/blog-card-5.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog5} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Your weekly update email <span role="img" aria-label="email">&#129299;</span></h5></div>
                         <div><h6>4 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -359,8 +381,8 @@ const Comission = () => {
 
                 <div className="card">
                     <Link to="featuring a video.html" className="res-card">
-                    <img src="/img/blog-card-6.jpg" alt="" className="res-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                    <img src={blog6} alt="" className="res-card-img"/>
+                    <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
                     <div><h5>Enabling visitors to support your content 
                       <span role="img" aria-label="content">&#129395;</span></h5></div>
@@ -371,8 +393,8 @@ const Comission = () => {
             
                 <div className="card">
                 <Link to="getting started.html" className="res-card">
-                <img src="/img/blog-card-7.jpg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog7} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>Featuring a video <span role="img" aria-label="video">&#127916;</span></h5></div>
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;1 min read</span></h6></div>
@@ -381,8 +403,8 @@ const Comission = () => {
 
                 <div className="card">
                 <Link to="featuring a video.html" className="res-card">
-                <img src="/img/blog-card-8.jpg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog8} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>Setting up with stripe 
                 <span role="img" aria-label="stripe">&#127970;</span></h5></div>
@@ -392,8 +414,8 @@ const Comission = () => {
 
                 <div className="card">
                 <Link to="getting started.html" className="res-card">
-                <img src="/img/blog-card-9.jpeg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog9} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>The Smart Link</h5></div>
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -402,8 +424,8 @@ const Comission = () => {
 
                 <div className="card">
                 <Link to="featuring a video.html" className="res-card">
-                <img src="/img/blog-card-10.jpg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog10} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>Monetization for content creators</h5></div>
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -420,16 +442,16 @@ const Comission = () => {
 
                 <div className="card-container" id="responsive-hide">
                     <Link to="featuring a video.html" className="main-card">
-                    <img src="/img/blog-card-13.jpg" alt="" className="main-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="card-avatar-1"/>
+                    <img src={blog13} alt="" className="main-card-img"/>
+                    <img src={avatar1} alt="" className="card-avatar-1"/>
                     <h2 className="tips-card">Tips</h2>
                     <div><h5>Taking Commissions <span role="img" aria-label="comission">&#128104;</span></h5></div>
                         <div><h6>6 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
                     </Link>
 
                     <Link to="featuring a video.html" className="main-card main-card-4">
-                    <img src="/img/blog-card-14.jpg" alt="" className="main-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="card-avatar-1"/>
+                    <img src={blog14} alt="" className="main-card-img"/>
+                    <img src={avatar1} alt="" className="card-avatar-1"/>
                     <h2 className="tips-card">Tips</h2>
 
                     <div><h5> <span role="img" aria-label="hello">&#128184;</span>How much money do Youtubers really make?</h5></div>
@@ -437,8 +459,8 @@ const Comission = () => {
                     </Link>
 
                     <Link to="getting started.html" className="main-card main-card-5">
-                    <img src="/img/blog-card-15.jpg" alt="" className="main-card-img"/>
-                    <img src="/img/avatar-1.png" alt="" className="card-avatar-1"/>
+                    <img src={blog15} alt="" className="main-card-img"/>
+                    <img src={avatar1} alt="" className="card-avatar-1"/>
                     <h2 className="tips-card">Tips</h2>
                     <div><h5> <span role="img" aria-label="hello">&#128678;</span>Getting started with your Beacons profile</h5></div>
                         <div><h6>7 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>

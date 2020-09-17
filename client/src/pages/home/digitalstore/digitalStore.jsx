@@ -1,5 +1,29 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import blog2 from '../../../images/blog-card-2.jpg'
+import blog3 from '../../../images/blog-card-3.jpg'
+import blog4 from '../../../images/blog-card-4.jpg'
+import blog5 from '../../../images/blog-card-5.jpg'
+import blog6 from '../../../images/blog-card-6.jpg'
+import blog7 from '../../../images/blog-card-7.jpg'
+import blog8 from '../../../images/blog-card-8.jpg'
+import blog9 from '../../../images/blog-card-9.jpeg'
+import blog10 from '../../../images/blog-card-10.jpg'
+import blog11 from '../../../images/blog-card-11.jpeg'
+import blog13 from '../../../images/blog-card-13.jpg'
+import blog14 from '../../../images/blog-card-14.jpg'
+import blog15 from '../../../images/blog-card-15.jpg'
+import beaconsDark from '../../../images/beacons-dark.png'
+import avatar1 from '../../../images/avatar-1.png'
+import useravatar from '../../../images/user-avatar.png'
+import store1 from '../../../images/digital-store-1.png'
+import store2 from '../../../images/digital-store-2.png'
+import store4 from '../../../images/digital-store-4.png'
+import store5 from '../../../images/digital-store-5.png'
+import store6 from '../../../images/digital-store-6.png'
+import store7 from '../../../images/digital-store-7.png'
+import store8 from '../../../images/digital-store-8.png'
+import store9 from '../../../images/digital-store-9.png'
 
 const digitalStore = () => {
     return (
@@ -15,7 +39,7 @@ const digitalStore = () => {
               
                     <div className="each-article">
                       <Link to="">
-                        <img src="img/blog-card-2.jpg" className="article-img" alt="" />
+                        <img src={blog2} className="article-img" alt="Loading"/>
                         <h4>Optimizing your links for clicks <span role="img" aria-label="link">&#128170;</span></h4>
                         <span>2 months ago</span>        
                       </Link>    
@@ -23,7 +47,7 @@ const digitalStore = () => {
 
                     <div className="each-article">
                       <Link to="">
-                        <img src="img/blog-card-11.jpeg" className="article-img" alt="" />
+                        <img src={blog11} className="article-img" alt="" />
                         <h4>Building your email list <span role="img" aria-label="email">&#127969;</span>.</h4>
                         <span>6 months ago</span>             
                       </Link>    
@@ -31,7 +55,7 @@ const digitalStore = () => {
 
                   <div className="each-article">
                       <Link to="">
-                      <img src="img/blog-card-9.jpeg" className="article-img" alt="" />
+                      <img src={blog9} className="article-img" alt="" />
                       <h4>The Smart Link <span role="img" aria-label="link">&#9889; </span></h4>
                       <span>5 months ago</span>            
                       </Link>    
@@ -40,7 +64,7 @@ const digitalStore = () => {
         
                   <div className="each-article">
                     <Link to="">
-                      <img src="img/blog-card-8.jpg" className="article-img" alt="" />
+                      <img src={blog8} className="article-img" alt="" />
                       <h4>Setting up with stripe <span role="img" aria-label="link">&#127970; </span></h4>
                       <span>5 months ago</span>       
                     </Link>
@@ -61,7 +85,7 @@ const digitalStore = () => {
               <div className="navbar">
                   <div className="logo-div">
                       <Link to="index.html" className="blog-logo">
-                      <img src="img/beacons-dark.png" alt="" />
+                      <img src={beaconsDark} alt="" />
                       </Link>
                   </div>
             
@@ -91,7 +115,7 @@ const digitalStore = () => {
                   Before we get into the details of how to set up your store, here's an example from Brittany Noelle to illustrate how this product looks on a live website:
                 </p>
                 <div className="card-gif">
-                  <img src="/img/digital-store-1.png" alt=""/>
+                  <img src={store1} alt=""/>
                 <p className="small">A workout video from Brittany.</p>
                 </div>
                 <div className="card-title-left">
@@ -105,7 +129,7 @@ const digitalStore = () => {
                         </li>
                     </ul>
                     <div className="card-gif">
-                      <img src="img/digital-store-2.png" alt="" />
+                      <img src={store2} alt="" />
                     </div>
                 </div>
 
@@ -114,7 +138,7 @@ const digitalStore = () => {
                   <ul>
                     <li> 1. Once you have your Stripe account setup, you'll be able to upload digital files. Click the Add New Item button and choose a file.</li>
                         <div className="card-gif">
-                          <img src="img/digital-store-2.png" alt="" />
+                          <img src={store2} alt="" />
                         </div>
                       <li>2. After a successful file upload, a popup will appear where you can customize the store item:</li>
                      <ul className="no-dot">
@@ -129,7 +153,7 @@ const digitalStore = () => {
                         <li>e) Available is a switch to turn the item on and off for sale.</li>
 
                         <div className="card-gif">
-                          <img src="img/digital-store-4.png" alt="" />
+                          <img src={store4} alt="" />
                           </div>
 
                     </ul>
@@ -140,25 +164,25 @@ const digitalStore = () => {
                 <ul>
                   <li>1. The Store is one of the sections that you can customize on your page. It looks like this:</li>
                     <div className="card-gif">
-                      <img src="img/digital-store-5.png" alt="" />
+                      <img src={store5} alt="" />
                     </div>
                     <li>2. When they click Download Now they will be able to buy the file:</li>
                     <div className="card-gif">
-                       <img src="img/digital-store-6.png" alt="" />
+                       <img src={store6} alt="" />
                     </div>
 
                     <li>3. After successful payment, we'll give them a link to immediately download the file. We'll also send an email with the link so they can download it later.</li>
                       <div className="card-gif">
-                        <img src="img/digital-store-7.png" alt="" />
+                        <img src={store7} alt="" />
                         </div>
                       <div className="card-gif">
-                        <img src="img/digital-store-8.png" alt="" />
+                        <img src={store8} alt="" />
                         </div>
 
                       <li>4. When someone buys one of your videos, we'll also let you know by sending
                            you  an email.
                           <div className="card-gif">
-                            <img src="img/digital-store-9.png" alt="" />
+                            <img src={store9} alt="" />
                           </div>
                       </li>
                 </ul>
@@ -181,7 +205,7 @@ const digitalStore = () => {
 
             <div className="user-profile">
                   <div className="user-avatar-box">
-                    <img src="/img/user-avatar.png" alt="" className="user-avatar" />
+                    <img src={useravatar} alt="" className="user-avatar" />
                     <h6>David Zeng</h6>
                     <p> Co-Founder, CTO</p>
                   </div>
@@ -195,8 +219,8 @@ const digitalStore = () => {
         <div className="gliders">
             <div className="card">
               <Link to="getting started.html" className="res-card">
-                  <img src="/img/blog-card-13.jpg" alt="" className="res-card-img"/>
-                  <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                  <img src={blog13} alt="" className="res-card-img"/>
+                  <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                   <div>
                     <h5>Taking Commissions <span role="img" aria-label="comission">&#128104;</span></h5>
@@ -208,8 +232,8 @@ const digitalStore = () => {
          
           <div className="card">
             <Link to="featuring a video.html" className="res-card">
-                <img src="/img/blog-card-2.jpg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog2} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div><h5>Optimizing your links for clicks</h5></div>
                 <div><h6>7 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -218,8 +242,8 @@ const digitalStore = () => {
           
           <div className="card">
               <Link to="getting started.html" className="res-card">
-                <img src="/img/blog-card-3.jpg" alt="" className="res-card-img" />
-                <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+                <img src={blog3} alt="" className="res-card-img" />
+                <img src={avatar1} alt="" className="res-avatar" />
                 <h2 className="res-header">Tips</h2>
                 <div>
                   <h5>Leveling up your links <span role="img" aria-label="links">&#128279;</span></h5>
@@ -230,8 +254,8 @@ const digitalStore = () => {
 
           <div className="card">
               <Link to="featuring a video.html" className="res-card">
-               <img src="/img/blog-card-4.jpg" alt="" className="res-card-img" />
-               <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+               <img src={blog4} alt="" className="res-card-img" />
+               <img src={avatar1} alt="" className="res-avatar" />
                <h2 className="res-header">Tips</h2>
                 <div>
                   <h5>Customizing your page <span role="img" aria-label="links">&#127912</span></h5>
@@ -242,8 +266,8 @@ const digitalStore = () => {
 
           <div className="card">
             <Link to="getting started.html" className="res-card">
-              <img src="/img/blog-card-5.jpg" alt="" className="res-card-img" />
-              <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+              <img src={blog5} alt="" className="res-card-img" />
+              <img src={avatar1} alt="" className="res-avatar" />
               <h2 className="res-header">Tips</h2>
                 <div>
                   <h5>Your weekly update email <span role="img" aria-label="email">&#129299;</span></h5>
@@ -266,8 +290,8 @@ const digitalStore = () => {
 
           <div className="card">
           <Link to="getting started.html" className="res-card">
-            <img src="/img/blog-card-7.jpg" alt="" className="res-card-img" />
-            <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+            <img src={blog7} alt="" className="res-card-img" />
+            <img src={avatar1} alt="" className="res-avatar" />
             <h2 className="res-header">Tips</h2>
             <div><h5>Featuring a video <span role="img" aria-label="video">&#127916;</span></h5></div>
                 <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;1 min read</span></h6></div>
@@ -276,8 +300,8 @@ const digitalStore = () => {
 
           <div className="card">
           <Link to="featuring a video.html" className="res-card">
-            <img src="/img/blog-card-8.jpg" alt="" className="res-card-img" />
-            <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+            <img src={blog8} alt="" className="res-card-img" />
+            <img src={avatar1} alt="" className="res-avatar" />
             <h2 className="res-header">Tips</h2>
             <div><h5>Setting up with stripe <span role="img" aria-label="stripe">&#127970;</span></h5></div>
                 <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;1 min read</span></h6></div>
@@ -286,8 +310,8 @@ const digitalStore = () => {
 
           <div className="card">
             <Link to="getting started.html" className="res-card">
-              <img src="/img/blog-card-9.jpeg" alt="" className="res-card-img" />
-              <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+              <img src={blog9} alt="" className="res-card-img" />
+              <img src={avatar1} alt="" className="res-avatar" />
               <h2 className="res-header">Tips</h2>
               <div><h5>The Smart Link</h5></div>
                   <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -296,8 +320,8 @@ const digitalStore = () => {
 
           <div className="card">
             <Link to="featuring a video.html" className="res-card">
-              <img src="/img/blog-card-10.jpg" alt="" className="res-card-img" />
-              <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+              <img src={blog10} alt="" className="res-card-img" />
+              <img src={avatar1} alt="" className="res-avatar" />
               <h2 className="res-header">Tips</h2>
               <div><h5>Monetization for content creators</h5></div>
                   <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -317,8 +341,8 @@ const digitalStore = () => {
         <div className="glider res-glider">
               <div className="card">
                 <Link to="getting started.html" className="res-card">
-                  <img src="/img/blog-card-13.jpg" alt="" className="res-card-img"/>
-                  <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                  <img src={blog13} alt="" className="res-card-img"/>
+                  <img src={avatar1} alt="" className="res-avatar"/>
                   <h2 className="res-header">Tips</h2>
                   <div>
                     <h5>Taking Commissions <span role="img" aria-label="video">&#128104;</span></h5>
@@ -330,8 +354,8 @@ const digitalStore = () => {
          
               <div className="card">
               <Link to="featuring a video.html" className="res-card">
-                  <img src="/img/blog-card-2.jpg" alt="" className="res-card-img"/>
-                  <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                  <img src={blog2} alt="" className="res-card-img"/>
+                  <img src={avatar1} alt="" className="res-avatar"/>
                   <h2 className="res-header">Tips</h2>
                   <div><h5>Optimizing your links for clicks</h5></div>
                   <div><h6>7 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
@@ -340,8 +364,8 @@ const digitalStore = () => {
         
           <div className="card">
             <Link to="getting started.html" className="res-card">
-              <img src="/img/blog-card-3.jpg" alt="" className="res-card-img"/>
-              <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+              <img src={blog3} alt="" className="res-card-img"/>
+              <img src={avatar1} alt="" className="res-avatar"/>
               <h2 className="res-header">Tips</h2>
                 <div>
                   <h5>Leveling up your links <span role="img" aria-label="video">&#128279;</span></h5>
@@ -352,8 +376,8 @@ const digitalStore = () => {
 
           <div className="card">
             <Link to="featuring a video.html" className="res-card">
-              <img src="/img/blog-card-4.jpg" alt="" className="res-card-img"/>
-              <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+              <img src={blog4} alt="" className="res-card-img"/>
+              <img src={avatar1} alt="" className="res-avatar"/>
               <h2 className="res-header">Tips</h2>
                 <div>
                  <h5>Customizing your page <span role="img" aria-label="page">&#127912;</span></h5>
@@ -364,8 +388,8 @@ const digitalStore = () => {
 
           <div className="card">
             <Link to="getting started.html" className="res-card">
-              <img src="/img/blog-card-5.jpg" alt="" className="res-card-img"/>
-              <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+              <img src={blog5} alt="" className="res-card-img"/>
+              <img src={avatar1} alt="" className="res-avatar"/>
               <h2 className="res-header">Tips</h2>
               <div>
                 <h5>Your weekly update email <span role="img" aria-label="email">&#129299;</span></h5>
@@ -377,8 +401,8 @@ const digitalStore = () => {
         
           <div className="card">
             <Link to="featuring a video.html" className="res-card">
-              <img src="/img/blog-card-6.jpg" alt="" className="res-card-img"/>
-              <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+              <img src={blog6} alt="" className="res-card-img"/>
+              <img src={avatar1} alt="" className="res-avatar"/>
               <h2 className="res-header">Tips</h2>
               <div>
                 <h5>Enabling visitors to support your content <span role="img" aria-label="email">&#129395;</span></h5>
@@ -390,8 +414,8 @@ const digitalStore = () => {
 
         <div className="card">
           <Link to="getting started.html" className="res-card">
-            <img src="/img/blog-card-7.jpg" alt="" className="res-card-img"/>
-            <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+            <img src={blog7} alt="" className="res-card-img"/>
+            <img src={avatar1} alt="" className="res-avatar"/>
             <h2 className="res-header">Tips</h2>
             <div>
               <h5>Featuring a video <span role="img" aria-label="email">&#127916;</span></h5>
@@ -402,8 +426,8 @@ const digitalStore = () => {
 
         <div className="card">
           <Link to="featuring a video.html" className="res-card">
-            <img src="/img/blog-card-8.jpg" alt="" className="res-card-img" />
-            <img src="/img/avatar-1.png" alt="" className="res-avatar" />
+            <img src={blog8} alt="" className="res-card-img" />
+            <img src={avatar1} alt="" className="res-avatar" />
             <h2 className="res-header">Tips</h2>
               <div>
               <h5>Setting up with stripe <span role="img" aria-label="email">&#127970;</span></h5>
@@ -414,8 +438,8 @@ const digitalStore = () => {
 
             <div className="card">
               <Link to="getting started.html" className="res-card">
-                <img src="/img/blog-card-9.jpeg" alt="" className="res-card-img"/>
-                <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                <img src={blog9} alt="" className="res-card-img"/>
+                <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
                 <div>
                   <h5>The Smart Link</h5></div>
@@ -426,8 +450,8 @@ const digitalStore = () => {
       
             <div className="card">
               <Link to="featuring a video.html" className="res-card">
-                  <img src="/img/blog-card-10.jpg" alt="" className="res-card-img"/>
-                  <img src="/img/avatar-1.png" alt="" className="res-avatar"/>
+                  <img src={blog10} alt="" className="res-card-img"/>
+                  <img src={avatar1} alt="" className="res-avatar"/>
                   <h2 className="res-header">Tips</h2>
                   <div><h5>Monetization for content creators</h5></div>
                       <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
@@ -447,8 +471,8 @@ const digitalStore = () => {
     
          <div className="card-container" id="responsive-hide">
                 <Link to="featuring a video.html" className="main-card">
-                  <img src="/img/blog-card-13.jpg" alt="" className="main-card-img"/>
-                  <img src="/img/avatar-1.png" alt="" className="card-avatar-1"/>
+                  <img src={blog13} alt="" className="main-card-img"/>
+                  <img src={avatar1} alt="" className="card-avatar-1"/>
                   <h2 className="tips-card">Tips</h2>
                   <div>
                     <h5>Taking Commissions <span role="img" aria-label="comission">&#128104;</span></h5>
@@ -457,8 +481,8 @@ const digitalStore = () => {
                 </Link>
 
              <Link to="featuring a video.html" className="main-card main-card-4">
-              <img src="/img/blog-card-14.jpg" alt="" className="main-card-img"/>
-              <img src="/img/avatar-1.png" alt="" className="card-avatar-1"/>
+              <img src={blog14} alt="" className="main-card-img"/>
+              <img src={avatar1} alt="" className="card-avatar-1"/>
               <h2 className="tips-card">Tips</h2>
                <div>
                  <h5> <span role="img" aria-label="comission">&#128184;</span>How much money do Youtubers really make?</h5>
@@ -467,8 +491,8 @@ const digitalStore = () => {
             </Link>
 
             <Link to="getting started.html" className="main-card main-card-5">
-              <img src="/img/blog-card-15.jpg" alt="" className="main-card-img"/>
-              <img src="/img/avatar-1.png" alt="" className="card-avatar-1"/>
+              <img src={blog15} alt="" className="main-card-img"/>
+              <img src={avatar1} alt="" className="card-avatar-1"/>
               <h2 className="tips-card">Tips</h2>
               <div>
                 <h5> <span role="img" aria-label="comission">&#128678;</span>Getting started with your Beacons profile</h5></div>
