@@ -40,7 +40,7 @@ const index = () => {
 
         <div className='drop-down-container'>
           <div className='signin'>
-            <Link to='/'>Sign In</Link>
+            <Link to='/signUp'>Sign In</Link>
           </div>
         </div>
 

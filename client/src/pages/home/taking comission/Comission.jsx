@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../homeblogstyle/homepageblog.css';
+import '../homeblogstyle/homepageblog.scss';
 import blog2 from '../../../images/blog-card-2.jpg'
 import blog3 from '../../../images/blog-card-3.jpg'
 import blog4 from '../../../images/blog-card-4.jpg'
