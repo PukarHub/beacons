@@ -97,7 +97,7 @@ const Blog2 = () => {
 
 
         <section className="blog-page-2">
-            <Link to="getting started.html" className="page-2-top">
+            <Link to="/getting-started" className="page-2-top">
                     <div className="featured">   
                         <div className="avatar-1"><img src={avatar1} alt="" />
                             <h4 className="tips">Tips</h4>
@@ -118,7 +118,7 @@ const Blog2 = () => {
                     </div>
             </Link>
 
-                <Link to="featuring a video.html" className="page-2-top-2">
+                <Link to="/digitalstore" className="page-2-top-2">
                     <div className="card-2">
                      <img src={blog12} alt="" className="blog-card-img" />
                      <img src={avatar1} alt="" className="card-avatar" />
@@ -136,7 +136,7 @@ const Blog2 = () => {
 
        
         <div className="blog-pg2-card-container">
-                <Link to="featuring a video.html" className="blog-pg2-card blog-pg2-card-1">
+                <Link to="/comission" className="blog-pg2-card blog-pg2-card-1">
                     <img src={blog13} alt="Loading..." className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1 blog-pg-card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -149,7 +149,7 @@ const Blog2 = () => {
                 </Link>
 
      
-                <Link to="featuring a video.html" className="blog-pg2-card blog-pg2-card-4">
+                <Link to="/featuring-video" className="blog-pg2-card blog-pg2-card-4">
                         <img src={blog14} alt="" className="main-card-img" />
                         <img src={avatar1} alt="" className="card-avatar-1 blog-pg-card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -165,7 +165,7 @@ const Blog2 = () => {
 
                
 
-                <Link to="getting started.html" className="blog-pg2-card blog-pg2-card-5">
+                <Link to="/getting-started" className="blog-pg2-card blog-pg2-card-5">
                     <img src={blog15} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1 blog-pg-card-avatar-1"/>
                     <h2 className="tips-card">Tips</h2>
@@ -176,7 +176,7 @@ const Blog2 = () => {
                 </Link>
 
               
-                <Link to="getting started.html" className="blog-pg2-card blog-pg2-card-6">
+                <Link to="/links" className="blog-pg2-card blog-pg2-card-6">
                     <img src={blog2} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1 blog-pg-card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>

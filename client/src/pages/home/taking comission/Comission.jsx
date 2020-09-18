@@ -121,8 +121,8 @@ const Comission = () => {
                     <h4 className="followers-see" >Set up your request form</h4>
 
                     <p>
-                      <Link to="#">Sign in </Link>and go to the Requests tab. 
-                      <Link to="#">Connect your Stripe account</Link>  
+                      <Link to="/signUp">Sign in </Link>and go to the Requests tab. 
+                      <Link to="/">Connect your Stripe account</Link>  
                        if you haven't already. Turn your form on and explain the types of commissions you're taking.
                     </p>
                         <div className="card-gif">
@@ -211,7 +211,7 @@ const Comission = () => {
                 <div className="gliders">
                
                 <div className="card">
-                    <Link to="getting started.html" className="res-card">
+                    <Link to="/getting-started" className="res-card">
                     <img src={blog13} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -225,7 +225,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                    <Link to="featuring a video.html" className="res-card">
+                    <Link to="/links" className="res-card">
                     <img src={blog2} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -235,7 +235,7 @@ const Comission = () => {
                 </div>
           
                 <div className="card">
-                    <Link to="getting started.html" className="res-card">
+                    <Link to="/links" className="res-card">
                     <img src={blog3} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -245,7 +245,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                    <Link to="featuring a video.html" className="res-card">
+                    <Link to="/featuring-video" className="res-card">
                     <img src={blog4} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -256,7 +256,7 @@ const Comission = () => {
 
 
                 <div className="card">
-                    <Link to="getting started.html" className="res-card">
+                    <Link to="/getting-started" className="res-card">
                     <img src={blog5} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -266,7 +266,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                    <Link to="featuring a video.html" className="res-card">
+                    <Link to="/featuring-video" className="res-card">
                     <img src={blog6} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -276,7 +276,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                <Link to="getting started.html" className="res-card">
+                <Link to="/featuring-video" className="res-card">
                 <img src={blog7} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -286,7 +286,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                <Link to="featuring a video.html" className="res-card">
+                <Link to="/featuring-video" className="res-card">
                 <img src={blog8} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -298,7 +298,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                <Link to="getting started.html" className="res-card">
+                <Link to="/getting-started" className="res-card">
                 <img src={blog9} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -309,7 +309,7 @@ const Comission = () => {
 
           
                 <div className="card">
-                <Link to="featuring a video.html" className="res-card">
+                <Link to="/featuring-video" className="res-card">
                 <img src={blog10} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -329,7 +329,7 @@ const Comission = () => {
                 </button>
                 <div className="glider res-glider">
                  <div className="card">
-                    <Link to="getting started.html" className="res-card">
+                    <Link to="/getting-started" className="res-card">
                     <img src={blog13} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -340,7 +340,7 @@ const Comission = () => {
 
            
                 <div className="card">
-                    <Link to="featuring a video.html" className="res-card">
+                    <Link to="/links" className="res-card">
                     <img src={blog2} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -350,7 +350,7 @@ const Comission = () => {
                 </div>
             
                 <div className="card">
-                    <Link to="getting started.html" className="res-card">
+                    <Link to="/links" className="res-card">
                     <img src={blog3} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -360,7 +360,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                    <Link to="featuring a video.html" className="res-card">
+                    <Link to="/featuring-video" className="res-card">
                     <img src={blog4} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -370,7 +370,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                    <Link to="getting started.html" className="res-card">
+                    <Link to="/getting-started" className="res-card">
                     <img src={blog5} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -380,7 +380,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                    <Link to="featuring a video.html" className="res-card">
+                    <Link to="/featuring-video" className="res-card">
                     <img src={blog6} alt="" className="res-card-img"/>
                     <img src={avatar1} alt="" className="res-avatar"/>
                     <h2 className="res-header">Tips</h2>
@@ -392,7 +392,7 @@ const Comission = () => {
 
             
                 <div className="card">
-                <Link to="getting started.html" className="res-card">
+                <Link to="/getting-started" className="res-card">
                 <img src={blog7} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -402,7 +402,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                <Link to="featuring a video.html" className="res-card">
+                <Link to="/featuring-video" className="res-card">
                 <img src={blog8} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -413,7 +413,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                <Link to="getting started.html" className="res-card">
+                <Link to="/getting-started" className="res-card">
                 <img src={blog9} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -423,7 +423,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card">
-                <Link to="featuring a video.html" className="res-card">
+                <Link to="/featuring-video" className="res-card">
                 <img src={blog10} alt="" className="res-card-img"/>
                 <img src={avatar1} alt="" className="res-avatar"/>
                 <h2 className="res-header">Tips</h2>
@@ -441,7 +441,7 @@ const Comission = () => {
                 </div>
 
                 <div className="card-container" id="responsive-hide">
-                    <Link to="featuring a video.html" className="main-card">
+                    <Link to="/featuring-video" className="main-card">
                     <img src={blog13} alt="" className="main-card-img"/>
                     <img src={avatar1} alt="" className="card-avatar-1"/>
                     <h2 className="tips-card">Tips</h2>
@@ -449,7 +449,7 @@ const Comission = () => {
                         <div><h6>6 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
                     </Link>
 
-                    <Link to="featuring a video.html" className="main-card main-card-4">
+                    <Link to="/featuring-video" className="main-card main-card-4">
                     <img src={blog14} alt="" className="main-card-img"/>
                     <img src={avatar1} alt="" className="card-avatar-1"/>
                     <h2 className="tips-card">Tips</h2>
@@ -458,7 +458,7 @@ const Comission = () => {
                         <div><h6>7 months ago &nbsp;&bull;&nbsp;<span>&nbsp;1 min read</span></h6></div>
                     </Link>
 
-                    <Link to="getting started.html" className="main-card main-card-5">
+                    <Link to="/getting-started" className="main-card main-card-5">
                     <img src={blog15} alt="" className="main-card-img"/>
                     <img src={avatar1} alt="" className="card-avatar-1"/>
                     <h2 className="tips-card">Tips</h2>

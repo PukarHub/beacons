@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import '../homeblogstyle/homepageblog.css';
+import '../homeblogstyle/homepageblog.scss';
 import blog2 from '../../../images/blog-card-2.jpg'
 import blog3 from '../../../images/blog-card-3.jpg'
 import blog4 from '../../../images/blog-card-4.jpg'
@@ -470,7 +472,7 @@ const digitalStore = () => {
 
     
          <div className="card-container" id="responsive-hide">
-                <Link to="featuring a video.html" className="main-card">
+                <Link to="/comission" className="main-card">
                   <img src={blog13} alt="" className="main-card-img"/>
                   <img src={avatar1} alt="" className="card-avatar-1"/>
                   <h2 className="tips-card">Tips</h2>
@@ -480,7 +482,7 @@ const digitalStore = () => {
                   <div><h6>6 months ago &nbsp;&bull;&nbsp;<span>&nbsp;3 mins read</span></h6></div>
                 </Link>
 
-             <Link to="featuring a video.html" className="main-card main-card-4">
+             <Link to="/featuring-video" className="main-card main-card-4">
               <img src={blog14} alt="" className="main-card-img"/>
               <img src={avatar1} alt="" className="card-avatar-1"/>
               <h2 className="tips-card">Tips</h2>
@@ -490,7 +492,7 @@ const digitalStore = () => {
                   <div><h6>7 months ago &nbsp;&bull;&nbsp;<span>&nbsp;1 min read</span></h6></div>
             </Link>
 
-            <Link to="getting started.html" className="main-card main-card-5">
+            <Link to="/getting-started" className="main-card main-card-5">
               <img src={blog15} alt="" className="main-card-img"/>
               <img src={avatar1} alt="" className="card-avatar-1"/>
               <h2 className="tips-card">Tips</h2>

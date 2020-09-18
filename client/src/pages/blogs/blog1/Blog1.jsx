@@ -15,19 +15,9 @@ import blog11 from '../../../images/blog-card-11.jpeg'
 import beaconsDark from '../../../images/beacons-dark.png'
 import avatar1 from '../../../images/avatar-1.png'
 
+
 const Blog1 = () => {
    
-    // const Emoji = (props) => (
-    //  <span
-    //   className="emoji"
-    //   role="img"
-    //   aria-label={props.label ? props.label : ""}
-    //   aria-hidden={props.label ? "false" : "true"}
-    //  >
-    //   {props.symbol}
-    //  </span>
-    // )
-
     return (
   <div>  
     <div className="menu">
@@ -61,7 +51,7 @@ const Blog1 = () => {
                 </div>   
        
                 <div className="each-article">
-                <Link to="">
+                <Link to="/">
                 <img src={blog8} className="article-img" alt="" />
                 <h4>Setting up with stripe <span role="img" aria-label="Stripe">&#127970;</span></h4>
                 <span>5 months ago</span>       
@@ -106,7 +96,7 @@ const Blog1 = () => {
         </div>
 
         <section className="blog-post">
-            <Link to="getting started.html" className="blog-card-top">
+            <Link to="/getting-started" className="blog-card-top">
                 <div className="featured">   
                     <div className="avatar-1"><img src={avatar1} alt="" />
                     <h4 className="tips">Tips</h4>
@@ -121,7 +111,7 @@ const Blog1 = () => {
                 </div>
             </Link>
   
-            <Link to="featuring a video.html" className="blog-card-top-2">
+            <Link to="/featuring-video" className="blog-card-top-2">
                 <div className="card-2">
                     <img src={blog2} alt="" className="blog-card-img" />
                     <img src={avatar1} alt="" className="card-avatar" />
@@ -135,7 +125,7 @@ const Blog1 = () => {
            
        
             <div className="card-container">
-                <Link to="featuring a video.html" className="main-card main-card-1">
+                <Link to="/link" className="main-card main-card-1">
                     <img src={blog3} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -148,7 +138,7 @@ const Blog1 = () => {
                 </Link>
     
             
-                <Link to="getting started.html" className="main-card main-card-4">
+                <Link to="/getting-started" className="main-card main-card-4">
                     <img src={blog4} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                 <h2 className="tips-card">Tips</h2>
@@ -161,7 +151,7 @@ const Blog1 = () => {
                     </div>
                 </Link>
     
-                <Link to="featuring a video.html" className="main-card main-card-5">
+                <Link to="/featuring-video" className="main-card main-card-5">
                     <img src={blog5} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -171,7 +161,7 @@ const Blog1 = () => {
 
         
     
-                <Link to="getting started.html" className="main-card main-card-6">
+                <Link to="/getting-started" className="main-card main-card-6">
                     <img src={blog6} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -180,7 +170,7 @@ const Blog1 = () => {
                 </Link>
     
         
-                <Link to="featuring a video.html" className="main-card main-card-7">
+                <Link to="/featuring-video" className="main-card main-card-7">
                     <img src={blog7} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -188,7 +178,7 @@ const Blog1 = () => {
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;1 min read</span></h6></div>
                 </Link>
     
-                <Link to="featuring a video.html" className="main-card main-card-8">
+                <Link to="/featuring-video" className="main-card main-card-8">
                     <img src={blog8} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -197,7 +187,7 @@ const Blog1 = () => {
                 </Link>
     
         
-                <Link to="featuring a video.html" className="main-card main-card-9">
+                <Link to="/featuring-video" className="main-card main-card-9">
                 <img src={blog9} alt="" className="main-card-img" />
                 <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -206,7 +196,7 @@ const Blog1 = () => {
                 </Link>
 
     
-                <Link to="getting started.html" className="main-card main-card-10">
+                <Link to="/getting-started" className="main-card main-card-10">
                 <img src={blog10} alt="" className="main-card-img" />
                 <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -214,7 +204,7 @@ const Blog1 = () => {
                     <div><h6>5 months ago &nbsp;&bull;&nbsp;<span>&nbsp;2 mins read</span></h6></div>
                 </Link>
     
-                <Link to="featuring a video.html" className="main-card main-card-11">
+                <Link to="/featuring-video" className="main-card main-card-11">
                     <img src={blog11} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -223,7 +213,7 @@ const Blog1 = () => {
                 </Link>
 
             
-                <Link to="featuring a video.html" className="main-card main-card-12">
+                <Link to="/featuring-video" className="main-card main-card-12">
                     <img src={blog11} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>
@@ -232,7 +222,7 @@ const Blog1 = () => {
                 </Link>
 
         
-                <Link to="featuring a video.html" className="main-card main-card-13">
+                <Link to="/featuring-video" className="main-card main-card-13">
                     <img src={blog2} alt="" className="main-card-img" />
                     <img src={avatar1} alt="" className="card-avatar-1" />
                     <h2 className="tips-card">Tips</h2>

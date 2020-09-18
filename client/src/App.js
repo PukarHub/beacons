@@ -13,6 +13,8 @@ import Comission from './pages/home/taking comission/Comission'
 import Link from './pages/home/levellinks/Links'
 import Blog1 from './pages/blogs/blog1/Blog1'
 import Blog2 from './pages/blogs/blog2/Blog2'
+import gettingStarted from './pages/gettingstarted/getting-started'
+import featuringVideo from './pages/featuringvideo/featuring-video'
 
 
 
@@ -30,6 +32,8 @@ const App = () => {
           <Route exact path ="/link" component={Link} />
           <Route exact path ="/blog1" component={Blog1} />
           <Route exact path ="/blog2" component={Blog2} />
+          <Route exact path ="/getting-started" component={gettingStarted} />
+          <Route exact path ="/featuring-video" component={featuringVideo} />
           <Route exact path ="/forgotpassword" component={ForgotPassword} />
         </div>
       </Router>
